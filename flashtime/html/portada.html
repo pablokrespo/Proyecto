@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" action="portada.php" method="POST" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión - Flash Time</title>
+    <link rel="stylesheet" href="/miproyecto/flashtime/css/portada.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="panelLogin">
+            <div class="formularioLogin">
+                <!-- <button class="botonRegistro">Registrarse</button> -->
+                <h1>Iniciar sesión</h1>
+                <form enctype='multipart/form-data' action="/miproyecto/flashtime/php/portada.php" method="POST">
+                    <label for="usuario">Nombre de usuario</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                    <label for="contrasena">Contraseña</label>
+                    <input type="password" id="contrasena1" name="contrasena1" required>
+                    <div class="opcionesLogin">
+                        <label for="recordarme"> <input type="checkbox" id="recordarme" name="recordarme">Recordarme</label>
+                    </div>
+                    <button type="submit" name="form" value="login">Iniciar sesión</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="panelRegistro">
+            <div class="formularioRegistro">
+                <!-- <button class="botonLogin">Iniciar Sesión</button> -->
+                <h1>Registrarse</h1>
+                <form enctype='multipart/form-data' action="/miproyecto/flashtime/php/portada.php" method="POST">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                    <label for="usuario">Nombre de usuario</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                    <label for="contrasena1">Contraseña</label>
+                    <input type="password" id="contrasena1" name="contrasena1" required>
+                    <label for="contrasena2">Repetir contraseña</label>
+                    <input type="password" id="contrasena2" name="contrasena2" required>
+                    <button type="submit" name="form" value="register">Registrarse</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="portada">
+            <h1>FLASH TIME</h1>
+        </div>
+        
+        <div class="botonInvitado">
+            <button id="botonInvitado">Entrar como invitado</button>
+        </div>
+    </div>
+
+    <script src="/miproyecto/flashtime/js/portada.js"></script>
+</body>
+
+</html>

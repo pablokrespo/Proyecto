@@ -1,0 +1,24 @@
+body { font-family: sans-serif; background-color: #fff; }
+
+.contenedor { display: flex; max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+.panelLogin,
+.panelRegistro { display: flex; align-items: center; justify-content: space-between; background-color: #fff; border-radius: 10px; border-color: #ddd; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 400px; padding: 20px; margin-bottom: 20px; }
+
+.opcionesLogin { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+
+.formularioLogin,
+.formularioRegistro { max-width: 400px; padding: 20px; }
+
+.botonLogin { background-color: #000; color: #fff; }
+.botonRegistro { background-color: #000; color: #fff; }
+
+h1 { font-size: 36px; font-weight: bold; margin-bottom: 10px; }
+h2 { font-size: 24px; font-weight: normal; margin-bottom: 10px; }
+label { font-size: 16px; margin-bottom: 5px; display: block; }
+input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 10px; }
+a { font-size: 16px; color: #000; text-decoration: none; }
+button { width: 100%; padding: 10px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; }
+
+.portada { margin-bottom: 20px; }
+#botonInvitado { text-align: center; margin-top: 20px; }

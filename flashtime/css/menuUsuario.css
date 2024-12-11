@@ -1,0 +1,22 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f2f2f2; }
+header { background-color: #242424; color: #fff; padding: 20px; text-align: center; }
+
+h1 { font-size: 36px; margin: 0; }
+h2 { font-size: 24px; margin-bottom: 10px; }
+
+.barraAcciones { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #fff; }
+.button { background-color: #242424; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px; }
+.button:hover { background-color: #1a1a1a; }
+
+.panelListas { display: flex; justify-content: space-between; padding: 20px; }
+
+.lista1, 
+.lista2, 
+.lista3 { flex-basis: 30%; background-color: #fff; padding: 20px; border-radius: 5px; margin-right: 20px; }
+.lista1:last-child,
+.lista2:last-child,
+.lista3:last-child { margin-right: 0; }
+
+.catalogo { padding: 20px; }
+
+#busqueda { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }  
